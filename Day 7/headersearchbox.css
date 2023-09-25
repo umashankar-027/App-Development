@@ -1,0 +1,24 @@
+.headersearchbox-wrapper {
+  background-color: white;
+  width: 40vw;
+  height: 45px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.headersearchbox-input-wrapper {
+  width: 90%;
+  height: 100%;
+  & input::placeholder {
+    color: gray;
+  }
+}
+.headersearchbox-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+  font-size: 16px;
+}
