@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root {
+  --darkblue: #2b448f;
+  --headerbottomcolor: rgba(255, 255, 255, 0.131);
+}
+p {
+  font-size: 16px;
+}
+.custom-link {
+  color: inherit;
+  text-decoration: none;
+}
+/* username */
+.A-U-N {
+  text-transform: uppercase;
+}
+/* M icon */
+.material-symbols-outlined-color {
+  color: white;
+}
+.material-symbols-outlined-size-customized {
+  font-size: var(--iconsize);
+}
+.material-symbols-outlined-custom-color {
+  color: var(--customColor);
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--darkblue);
+  border-radius: 5px;
+}

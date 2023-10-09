@@ -1,0 +1,24 @@
+.aa-w-w {
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+.aa-w-on-s-r {
+  height: 100vh;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-weight: bolder;
+  display: none;
+}
+@media (max-device-width: 1000px), (width<1000px) {
+  .aa-w-on-s-r {
+    display: flex;
+  }
+  .aa-w-w {
+    display: none;
+  }
+}
