@@ -1,0 +1,30 @@
+.h-w-w {
+  height: 70px;
+  width: 100%;
+  background-color: var(--darkblue);
+  display: flex;
+  justify-content: space-between;
+}
+.h-w-i-t-div {
+  display: flex;
+  gap: 10px;
+  padding: 0 10px;
+}
+.h-w-t-w {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h-w-i-w {
+  padding: 5px 10px;
+  & img {
+    width: 180px;
+    height: 50px;
+  }
+}
+.h-w-lable{
+     color: rgba(255, 255, 255, 0.721);
+     display: flex;
+     align-items: end;
+     padding: 5px 10px;
+}
